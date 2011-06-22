@@ -4,6 +4,7 @@
 	<type>Core Library</type>
 	<name>AIR 3 (MX)</name>
 	<description>AIR Zugspitze extension.</description>
+	<exclude>true</exclude>
 	<dependencies>
 		<id>org.foomo.zugspitze.core</id>
 	</dependencies>
