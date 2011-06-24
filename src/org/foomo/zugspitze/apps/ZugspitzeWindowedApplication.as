@@ -1,15 +1,15 @@
 package org.foomo.zugspitze.apps
 {
-	import org.foomo.zugspitze.core.ZugspitzeController;
-	import org.foomo.zugspitze.core.ZugspitzeModel;
-	import org.foomo.zugspitze.core.Zugspitze;
-	import org.foomo.zugspitze.events.ZugspitzeEvent;
-
 	import flash.display.DisplayObject;
 
 	import mx.core.WindowedApplication;
 
-	public class WindowedApplication extends mx.core.WindowedApplication implements IApplication
+	import org.foomo.zugspitze.core.Zugspitze;
+	import org.foomo.zugspitze.core.ZugspitzeController;
+	import org.foomo.zugspitze.core.ZugspitzeModel;
+	import org.foomo.zugspitze.events.ZugspitzeEvent;
+
+	public class ZugspitzeWindowedApplication extends WindowedApplication implements IApplication
 	{
 		//-----------------------------------------------------------------------------------------
 		// ~ Variables
@@ -27,7 +27,7 @@ package org.foomo.zugspitze.apps
 		/**
 		 * Constructor
 		 */
-		public function WindowedApplication():void
+		public function ZugspitzeWindowedApplication():void
 		{
 			super();
 			_zugspitze = new Zugspitze(this);

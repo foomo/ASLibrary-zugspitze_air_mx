@@ -1,11 +1,5 @@
 <report>
   <scripts>
-    <script name="_baf3ce83c3e09c1a07a35c56da348aba3e6eeb995229983f4511397e0e53c827_flash_display_Sprite.as" mod="1308899920120" size="1107" optimizedsize="511">
-      <def id="_baf3ce83c3e09c1a07a35c56da348aba3e6eeb995229983f4511397e0e53c827_flash_display_Sprite" />
-      <pre id="flash.display:Sprite" />
-      <dep id="flash.system:Security" />
-      <dep id="AS3" />
-    </script>
     <script name="/Applications/Adobe Flash Builder 4.5/sdks/3.6.0/frameworks/libs/air/airframework.swc(mx/events/FlexNativeMenuEvent)" mod="1236193040996" size="1199" optimizedsize="645">
       <def id="mx.events:FlexNativeMenuEvent" />
       <pre id="flash.events:Event" />
@@ -171,22 +165,17 @@
       <dep id="Error" />
       <dep id="mx.utils:NameUtil" />
     </script>
-    <script name="/Users/franklin/Workspaces/flex4/zugspitze_air3/src/org/foomo/zugspitze/apps/WindowedApplication.as" mod="1308127791000" size="2752" optimizedsize="1291">
-      <def id="org.foomo.zugspitze.apps:WindowedApplication" />
-      <pre id="mx.core:WindowedApplication" />
-      <pre id="org.foomo.zugspitze.apps:IApplication" />
-      <dep id="org.foomo.zugspitze.core:ZugspitzeModel" />
-      <dep id="org.foomo.zugspitze.core:Zugspitze" />
-      <dep id="AS3" />
-      <dep id="flash.display:DisplayObject" />
-      <dep id="org.foomo.zugspitze.events:ZugspitzeEvent" />
-      <dep id="org.foomo.zugspitze.core:ZugspitzeController" />
-    </script>
     <script name="/Applications/Adobe Flash Builder 4.5/sdks/3.6.0/frameworks/libs/air/airframework.swc(mx/events/AIREvent)" mod="1236193040886" size="1060" optimizedsize="624">
       <def id="mx.events:AIREvent" />
       <pre id="flash.events:Event" />
       <dep id="AS3" />
       <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="_b70c4fc1e83a5f5660535b83bffc810216abbca55e8bd54a3a96e8926a08db7b_flash_display_Sprite.as" mod="1308920725700" size="1107" optimizedsize="511">
+      <def id="_b70c4fc1e83a5f5660535b83bffc810216abbca55e8bd54a3a96e8926a08db7b_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="flash.system:Security" />
+      <dep id="AS3" />
     </script>
     <script name="/Applications/Adobe Flash Builder 4.5/sdks/3.6.0/frameworks/libs/air/airframework.swc(mx/core/windowClasses/TitleBar)" mod="1244058320260" size="10014" optimizedsize="5692">
       <def id="mx.core.windowClasses:TitleBar" />
@@ -297,6 +286,17 @@
       <dep id="flash.display:NativeMenuItem" />
       <dep id="XML" />
       <dep id="mx.events:CollectionEvent" />
+    </script>
+    <script name="/Users/franklin/Workspaces/flex4/zugspitze_air1/src/org/foomo/zugspitze/apps/ZugspitzeWindowedApplication.as" mod="1308920292000" size="2925" optimizedsize="1329">
+      <def id="org.foomo.zugspitze.apps:ZugspitzeWindowedApplication" />
+      <pre id="mx.core:WindowedApplication" />
+      <pre id="org.foomo.zugspitze.apps:IApplication" />
+      <dep id="org.foomo.zugspitze.core:ZugspitzeModel" />
+      <dep id="org.foomo.zugspitze.core:Zugspitze" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="org.foomo.zugspitze.events:ZugspitzeEvent" />
+      <dep id="org.foomo.zugspitze.core:ZugspitzeController" />
     </script>
     <script name="/Applications/Adobe Flash Builder 4.5/sdks/3.6.0/frameworks/libs/air/airframework.swc(mx/managers/WindowedSystemChildrenList)" mod="1236193042855" size="3363" optimizedsize="1745">
       <def id="mx.managers:WindowedSystemChildrenList" />
