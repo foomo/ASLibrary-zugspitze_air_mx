@@ -6,6 +6,7 @@
 	<description>AIR Zugspitze extension.</description>
 	<exclude>true</exclude>
 	<dependencies>
+		<id>org.foomo.flash</id>
 		<id>org.foomo.zugspitze.core</id>
 		<id>org.foomo.zugspitze.flex3</id>
 	</dependencies>
